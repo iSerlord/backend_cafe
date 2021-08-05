@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rewards",
+  "info": {
+    "name": "Rewards",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Menu": {
+      "type": "string"
+    },
+    "Diamonds": {
+      "type": "integer"
+    }
+  }
+}
