@@ -21,6 +21,11 @@
     "reward_histories": {
       "via": "reward",
       "collection": "reward-history"
+    },
+    "Stock": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
     }
   }
 }

@@ -12,8 +12,8 @@
   "pluginOptions": {},
   "attributes": {
     "reward": {
-      "model": "rewards",
-      "via": "reward_histories"
+      "via": "reward_histories",
+      "model": "rewards"
     },
     "users": {
       "plugin": "users-permissions",

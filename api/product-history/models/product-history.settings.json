@@ -24,6 +24,10 @@
     "food": {
       "model": "food",
       "via": "product_histories"
+    },
+    "diamond_point": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
