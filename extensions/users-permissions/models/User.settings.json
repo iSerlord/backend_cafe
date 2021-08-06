@@ -59,18 +59,21 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "birthday": {
-      "type": "string"
-    },
-    "birth_month": {
-      "type": "string"
-    },
-    "birth_year": {
-      "type": "string"
-    },
     "diamond_point": {
       "type": "integer",
       "default": 0
+    },
+    "money": {
+      "type": "integer",
+      "default": 0
+    },
+    "product_histories": {
+      "via": "user",
+      "collection": "product-history"
+    },
+    "reward_histories": {
+      "via": "users",
+      "collection": "reward-history"
     }
   }
 }

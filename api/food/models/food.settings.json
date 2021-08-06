@@ -16,6 +16,10 @@
     },
     "price": {
       "type": "integer"
+    },
+    "product_histories": {
+      "via": "food",
+      "collection": "product-history"
     }
   }
 }

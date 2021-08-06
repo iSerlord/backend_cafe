@@ -17,6 +17,10 @@
     },
     "diamonds": {
       "type": "integer"
+    },
+    "reward_histories": {
+      "via": "reward",
+      "collection": "reward-history"
     }
   }
 }

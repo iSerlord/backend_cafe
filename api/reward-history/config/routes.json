@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reward-histories",
+      "handler": "reward-history.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reward-histories/count",
+      "handler": "reward-history.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reward-histories/:id",
+      "handler": "reward-history.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reward-histories",
+      "handler": "reward-history.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reward-histories/:id",
+      "handler": "reward-history.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reward-histories/:id",
+      "handler": "reward-history.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

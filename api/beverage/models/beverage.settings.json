@@ -23,6 +23,10 @@
     },
     "blended_style": {
       "type": "string"
+    },
+    "product_histories": {
+      "via": "beverage",
+      "collection": "product-history"
     }
   }
 }

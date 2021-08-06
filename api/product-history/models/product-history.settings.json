@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_histories",
+  "info": {
+    "name": "productHistory",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "product_histories"
+    },
+    "beverage": {
+      "model": "beverage",
+      "via": "product_histories"
+    },
+    "food": {
+      "model": "food",
+      "via": "product_histories"
+    }
+  }
+}
