@@ -28,6 +28,9 @@
     "diamond_point": {
       "type": "integer",
       "default": 0
+    },
+    "price": {
+      "type": "integer"
     }
   }
 }
