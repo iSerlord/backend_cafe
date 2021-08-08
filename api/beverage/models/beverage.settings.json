@@ -15,18 +15,18 @@
     "menu": {
       "type": "string"
     },
-    "hot_style": {
-      "type": "string"
-    },
-    "ice_style": {
-      "type": "string"
-    },
-    "blended_style": {
-      "type": "string"
-    },
     "product_histories": {
       "via": "beverage",
       "collection": "product-history"
+    },
+    "hot_style": {
+      "type": "integer"
+    },
+    "blended_style": {
+      "type": "integer"
+    },
+    "ice_style": {
+      "type": "integer"
     }
   }
 }

@@ -18,8 +18,8 @@
       "via": "product_histories"
     },
     "beverage": {
-      "model": "beverage",
-      "via": "product_histories"
+      "via": "product_histories",
+      "model": "beverage"
     },
     "food": {
       "model": "food",
