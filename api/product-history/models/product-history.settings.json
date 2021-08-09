@@ -31,6 +31,9 @@
     },
     "price": {
       "type": "integer"
+    },
+    "type": {
+      "type": "string"
     }
   }
 }
